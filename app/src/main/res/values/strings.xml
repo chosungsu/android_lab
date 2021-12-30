@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">HealOnYou</string>
+    <string name="app_name_second">Feed</string>
+    <string name="search">검색하기</string>
+    <string name="Photo">Post</string>
+    <string name="Editor">Created By PLEDITOR</string>
+    <string name="Brush">Draw Line</string>
+    <string name="Summary">전자 처방전</string>
+    <string name="medicinepaper">복용 약 업로드 바로가기</string>
+    <string name="healthpaper">데일리 운동일과 바로가기</string>
+    <string name="hospitalpaper">처방전 업로드 바로가기</string>
+    <string name="shotieuploader">Healthy한 운동습관 업로더 바로가기(준비 중입니다.)</string>
+    <string name="Blog_main">ALIV</string>
+    <string name="ShortForm_main">SHOTIE</string>
+    <string name="Login_username">Enter UserName Here</string>
+    <string name="Login_email">Enter Email Here</string>
+    <string name="Login_pw">Enter Password Here</string>
+
+    <!--home fragment choose context menu strings-->
+    <string name="medicine">약 추가</string>
+    <string name="write">직접 쓰기</string>
+    <string name="scanning">스캐닝(아직 준비중입니다..)</string>
+
+    <!--home fragment add_medicine strings-->
+    <string name="add_medicine">약 이름 입력하기</string>
+    <string name="add_why_eat">병명 입력하기</string>
+    <string name="add_first_date">시작날짜 입력하기</string>
+    <string name="add_last_date">마지막날짜 입력하기</string>
+    <string name="finish_adding">입력완료</string>
+
+    <!--walker fragment strings-->
+    <string name="pedometer_info">포그라운드 시스템을 사용하기 때문에 구글 정책에 의해 생활 움직임은
+    상태바에 지속적으로 띄어줍니다. 그리고 운동 시작 버튼을 누르게 되면 사용자의 운동패턴을 기록하게 됩니다.</string>
+    <string name="heart_beat_info">사용자의 심박수를 센서로 측정하게 됩니다. 이 시스템은 사용 가능 기종만 사용 가능합니다.</string>
+
+    <!--covid parse data(encoding key)-->
+    <string name="filters">필터링 항목</string>
+    <string name="time">입력 순서</string>
+    <string name="neartime">최신 data</string>
+    <string name="fartime">과거 data</string>
+    <string name="hanguel">가나다 순서</string>
+    <string name="fitness">바로가기</string>
+    <string name="refresh">새로고침</string>
+    <string name="record">새 레코드 생성</string>
+    <string name="data">기록보기</string>
+
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path
+        name="처방전"
+        path="Android/data/com.example.java_final_project/files/DCIM" />
+</paths>

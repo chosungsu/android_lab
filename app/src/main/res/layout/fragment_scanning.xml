@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextureView
+        android:layout_gravity="center"
+        android:id="@+id/textureview_1"
+        android:layout_height="200dp"
+        android:layout_width="300dp"/>
+    <ImageView
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/iv_captured_pic"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/tv_picture"
+        android:text="이 곳에 처방전을 찍어주세요"
+        android:textSize="20sp"
+        android:textColor="@color/secondary_text"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/tv_path"
+        android:text=""
+        android:textSize="15sp"
+        android:textColor="@color/secondary_text"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_pick_paper"
+        android:text="캡쳐"
+        android:textSize="20sp"
+        android:textColor="@color/secondary_text"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

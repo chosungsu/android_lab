@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용자 이름(닉네임)"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:gravity="center|left"
+            android:background="@drawable/edittext_background"
+            android:id="@+id/et_name_s"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:hint="@string/Login_username"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이메일"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <EditText
+            android:gravity="center|left"
+            android:background="@drawable/edittext_background"
+            android:id="@+id/et_email_s"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:hint="@string/Login_email"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <EditText
+            android:gravity="center|left"
+            android:inputType="numberPassword"
+            android:background="@drawable/edittext_background"
+            android:id="@+id/et_password_s"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:hint="@string/Login_pw"/>
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/button_background"
+        android:id="@+id/btn_signup"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입" />
+
+</LinearLayout>

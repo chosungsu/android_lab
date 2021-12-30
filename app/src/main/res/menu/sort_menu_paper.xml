@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/medicine"
+        android:title="@string/time" >
+        <menu>
+            <item
+                android:id="@+id/neartime"
+                android:orderInCategory="5"
+                android:title="@string/neartime"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/fartime"
+                android:orderInCategory="5"
+                android:title="@string/fartime"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

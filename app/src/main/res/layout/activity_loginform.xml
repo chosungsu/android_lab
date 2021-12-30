@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용자 이름(닉네임)"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background"
+            android:id="@+id/et_name_l"
+            android:inputType="textPersonName"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:hint="@string/Login_username"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <EditText
+            android:background="@drawable/edittext_background"
+            android:id="@+id/et_password_l"
+            android:layout_marginTop="10dp"
+            android:inputType="numberPassword"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:hint="@string/Login_pw"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox_login"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자동 로그인 설정"/>
+    <Button
+        android:background="@drawable/button_background"
+        android:id="@+id/btn_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인" />
+
+</LinearLayout>

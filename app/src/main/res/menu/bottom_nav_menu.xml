@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_medi"
+        android:icon="@drawable/ic_baseline_medication_24"
+        android:title="약 복용 일과"/>
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_view_compact_24"
+        android:title="홈"/>
+    <item
+        android:id="@+id/nav_post"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="포스팅"/>
+    <item
+        android:id="@+id/nav_walk"
+        android:icon="@drawable/ic_baseline_slow_motion_video_24"
+        android:title="헬스"/>
+    <item
+        android:id="@+id/nav_set"
+        android:icon="@drawable/ic_baseline_more_horiz_24"
+        android:title="설정"/>
+
+</menu>
